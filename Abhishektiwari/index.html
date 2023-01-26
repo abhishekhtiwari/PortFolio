@@ -81,6 +81,12 @@
     <!-- top-area End -->
     <!--welcome-hero start -->
     <section id="welcome-hero" class="welcome-hero">
+        <!-- particles.js container --> 
+        <div id="particles-js"></div> 
+        <!-- stats - count particles --> 
+        <div class="count-particles"> 
+            <span class="js-count-particles">--</span> particles </div>
+             <!-- particles.js lib - https://github.com/VincentGarreau/particles.js --> 
         <div class="container">
             <div class="row">
                 <div class="col-md-12 text-center">
@@ -92,7 +98,10 @@
                                 <span class="letters">Abhishek Tiwari</span>
                             </span>
                             </h1>
-                        <p>Software developer</p>
+                        <p>
+                            <span class="typer" id="main" data-words="Software Developer, Backend Developer, .NET Developer" data-delay="100" data-deleteDelay="1000" data-colors="white"></span>
+                            <span class="cursor" data-owner="main"></span>
+                          </p>
                         <a href="assets/download/Abhishek-Tiwari.pdf" download>download resume</a>
                         <!-- <a href="mailto:mr.abhishekhtiwari@gmail.com" download>Let's Talk</a> -->
                     </div><!--/.header-text-->
@@ -634,9 +643,16 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
 
+    <!-- Type js cdn -->
+    <script async src="https://unpkg.com/typer-dot-js@0.1.0/typer.js"></script>
+
+    <!-- Particle JS cdn  -->
+    <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="http://threejs.org/examples/js/libs/stats.min.js"></script>
     <!--Custom JS-->
     <script src="assets/js/custom.js"></script>
     <script src="assets/js/namejavascript.js"></script>
+    <script src="assets/js/particle.js"></script>
 
 </body>
 
