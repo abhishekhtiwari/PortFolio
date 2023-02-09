@@ -80,7 +80,7 @@ a,a:hover,a:active,a:focus {
 	display:inline-block;
 	text-decoration:none;
 	color: #6a708e;
-	font-size:16px;
+	font-size:18px;
 	padding:0;
 }
 h1,h2,h3,h4,h5,h6 { 
@@ -158,7 +158,7 @@ nav.navbar.bootsnav {
 
 /*.nav li*/
 nav.navbar.bootsnav ul.nav > li > a {
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 400;
     text-transform:uppercase;
     -webkit-transition: 0.3s linear; 
@@ -284,7 +284,7 @@ canvas{
 /*.header-text-area*/
 .header-text h2 {
     color: #fff;
-    font-size: 44px;
+    font-size: 30px;
     /* font-weight: 700; */
     text-transform: uppercase;
     line-height: 1.5;
@@ -292,9 +292,9 @@ canvas{
 .header-text h2 span {color: #d92cf9;}
 .header-text p {
     color: #fff;
-    font-size: 20px;
-    font-weight: 300;
-    text-transform: uppercase;
+    font-size: 23px;
+    font-weight: 500;
+    /* text-transform: uppercase; */
     margin: 30px 0 60px;
     letter-spacing: 1px;
 }
@@ -302,7 +302,7 @@ canvas{
     width: 200px;
     height: 60px;
     line-height: 60px;
-    border-radius: 3px;
+    border-radius: 30px;
     text-transform: capitalize;
     color: #fff;
     background: #b636ff;
@@ -347,7 +347,7 @@ canvas{
 /*.single-about-txt*/
 
 /*.single-about-img */
-.single-about-img{position: relative;}
+.single-about-img{position: relative;margin-left: 100px;}
 .single-about-img:before {
     position:  absolute;
     content: " ";
