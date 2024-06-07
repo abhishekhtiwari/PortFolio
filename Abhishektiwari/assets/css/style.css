@@ -347,7 +347,7 @@ canvas{
 /*.single-about-txt*/
 
 /*.single-about-img */
-.single-about-img{position: relative;margin-left: 100px;}
+.single-about-img{position: relative;margin-left: 60px;}
 .single-about-img:before {
     position:  absolute;
     content: " ";
